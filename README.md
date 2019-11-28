@@ -1,6 +1,6 @@
 # HTML FORM
 
-This is a basic htnl form build with html and css for learning purpose. This is a clone of the intuit login page.
+This is a basic html form build with html and css for learning purpose. This is a clone of the intuit login page.
 
 ## Deployment
 
@@ -14,5 +14,5 @@ Add additional notes about how to deploy this on a live system
 
 ## Acknowledgments
 
-- Inspiration of intuit log in page
+- Inspiration of intuit log in page 
 - etc
