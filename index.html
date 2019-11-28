@@ -30,19 +30,18 @@
               <img src="images/logo0.png" alt="logo0" />
             </div>
             <div class="next-ico">
-              <span><img src="images/logo1.png" alt="" />mint</span>
-              <span><img src="images/logo2.png" alt="" />quickbooks</span>
-              <span><img src="images/logo3.png" alt="" />turbotax</span>
+              <div>
+                <span><img src="images/logo1.png" alt="logo1" /><span>mint</span></span>
+                <span><img src="images/logo2.png" alt="logo2" /><span>quickbooks</span></span>
+                <span><img src="images/logo3.png" alt="logo3" /><span>turbotax</span></span>
+              </div>
             </div>
           </header>
 
           <section class="form-wrap">
             <h2>Create an Intuit account</h2>
             <p>One account for everything Intuit, including Mint.</p>
-            <a
-              href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
-              >Learn More</a
-            >
+            <div class="link-wrap"><a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn More</a></div>
 
             <form>
               <label>
@@ -50,13 +49,13 @@
                 <input type="email" name="email" />
               </label>
 
-              <label for="">
+              <label class="phone-input">
                 <span class="label">Phone (recommended)</span>
                 <input type="tel" name="phone" />
-                <span class="phone-advice"></span>
+                <span class="phone-advice">Standard call, messaging or data rates may apply.</span>
               </label>
 
-              <label for="">
+              <label style="padding-top: 20px">
                 <span class="label">Password</span>
                 <input type="password" name="pass" />
                 <span class="fas fa-lock-open unlock"></span>
