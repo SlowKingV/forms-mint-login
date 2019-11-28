@@ -1,0 +1,113 @@
+body {
+    background-color: #ECEEF1;
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+
+/*------------------------------------------------------------------------
+                                FORM
+------------------------------------------------------------------------*/
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-wrap {
+    font-weight: 400;
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 380px;
+    height: 550px;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #3b3b3b;
+    font-size: 24px;
+}
+
+.form-wrap h2 {
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 1em;
+}
+
+.form-wrap p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.form-wrap a {
+    font-size: 12px;
+    padding-bottom: 1em;
+}
+
+.form-wrap form {
+    height: 300px;
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-wrap form label > * {
+    display: block;
+}
+
+.form-wrap form label > input {
+    width: 100%;
+    height: 35px;
+}
+
+.form-wrap label > .label {
+    padding: 0.5em 0;
+}
+
+.form-wrap .unlock {
+    color: #c7c7c7;
+    position: relative;
+    bottom: 24px;
+    transform: scaleX(-1);
+}
+
+.form-wrap button {
+    padding: 1em 0;
+    color: #fff;
+    background-color: #0077C5;
+    border: 0;
+    border-radius: 5px;
+}
+
+.form-wrap button i {
+    padding-right: 0.6em;
+}
+
+.form-wrap .submit-advice {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 2em;
+    color: #686868;
+    padding-top: 2em;
+}
+
+.recap {
+    display: block;
+    width: 380px;
+    padding: 2em 0;
+    background-color: #ECEEF1;
+    font-size: 10px;
+    box-sizing: border-box;
+    border: 1px solid #c7c7c7;
+    border-top: 0;
+}

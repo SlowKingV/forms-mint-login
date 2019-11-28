@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css" />
     <title>Form Mint Login</title>
   </head>
@@ -32,36 +33,35 @@
             </div>
           </header>
           
-          <section>
+          <section class="form-wrap">
             <h2>Create an Intuit account</h2>
             <p>One account for everything Intuit, including Mint.</p>
             <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn More</a>
 
             <form>
               <label>
-                <span>Email address</span>
+                <span class="label">Email address</span>
                 <input type="email" name="email" />
               </label>
 
               <label for="">
-                <span>Phone (recommended)</span>
+                <span class="label">Phone (recommended)</span>
                 <input type="tel" name="phone" />
-                <span class="advice"></span>
+                <span class="phone-advice"></span>
               </label>
 
               <label for="">
-                <span>Password</span>
+                <span class="label">Password</span>
                 <input type="password" name="pass" />
-                <span class="fas fa-lock-open"></span>
+                <span class="fas fa-lock-open unlock"></span>
               </label>
 
               <button name="submit"><i class="fas fa-lock"></i> Create Account</button>
             </form>
 
-            <p>By clicking Create account, you agree to our <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement</a>.</p>
-
-            <div>Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">Terms of Use</a>.</div>
+            <p class="submit-advice">By clicking Create account, you agree to our <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://security.intuit.com/privacy">Privacy Statement</a>.</p>
           </section>
+          <div class="recap">Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/">Terms of Use</a>.</div>
         </div>
       </div>
     </div>
