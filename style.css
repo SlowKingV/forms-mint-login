@@ -10,6 +10,10 @@ a {
   color: #0077c5;
 }
 
+footer a {
+  color: #505050;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -102,6 +106,12 @@ nav button {
   font-weight: 400;
   margin-top: 0;
   font-size: 1em;
+}
+
+footer p {
+  color: #505050;
+  word-spacing: 2px;
+  line-height: 5px;
 }
 
 .form-wrap p {
@@ -216,12 +226,6 @@ footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-footer p {
-  color: #505050;
-  word-spacing: 2px;
-  line-height: 5px;
-}
-
 footer ul li {
   display: inline-block;
   padding: 4px 8px;
@@ -229,8 +233,4 @@ footer ul li {
 
 footer ul {
   padding: 5px 0 0;
-}
-
-footer a {
-  color: #505050;
 }
