@@ -1,0 +1,236 @@
+body {
+  background-color: #eceef1;
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+footer a {
+  color: #505050;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------------
+                                NAVBAR
+------------------------------------------------------------------------ */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 30px;
+  background: #eceef1;
+}
+
+button {
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #0077c4 0, #167ccc 100%);
+}
+
+nav p {
+  color: #505050;
+  padding: 1px 2px;
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+  line-height: 2px;
+  margin-top: 7px;
+}
+
+nav button {
+  border: 1px solid #4c4c4c;
+  background: #0077c4;
+  border-radius: 4px;
+  width: 105px;
+  height: 35px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.navbot {
+  padding-right: 6px;
+}
+
+.next-ico { padding-bottom: 15px; }
+
+.next-ico > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.next-ico span {
+  color: #8d9096;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  height: 32px;
+}
+
+.next-ico span > span {
+  position: relative;
+  bottom: 10px;
+}
+
+/* ------------------------------------------------------------------------
+                                FORM
+------------------------------------------------------------------------ */
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-wrap {
+  font-weight: 400;
+  display: flex;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 380px;
+  height: 550px;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #3b3b3b;
+  font-size: 24px;
+}
+
+.form-wrap h2 {
+  font-weight: 400;
+  margin-top: 0;
+  font-size: 1em;
+}
+
+footer p {
+  color: #505050;
+  word-spacing: 2px;
+  line-height: 5px;
+}
+
+.form-wrap p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.form-wrap .link-wrap {
+  height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-wrap a {
+  font-size: 12px;
+}
+
+.form-wrap form {
+  height: 300px;
+  font-size: 14px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form-wrap form > label > * {
+  display: block;
+}
+
+.form-wrap form > label > input {
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid #c7c7c7;
+  border-radius: 4px;
+}
+
+.form-wrap form input:focus {
+  box-shadow: 0 0 2px 2px #bfe2ff;
+  border: 1px solid #167ccc;
+}
+
+.form-wrap .phone-advice {
+  color: #3b3b3b;
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+.form-wrap label > .label {
+  padding: 0.5em 0;
+}
+
+.form-wrap .unlock {
+  color: #c7c7c7;
+  position: relative;
+  bottom: 24px;
+  right: 10px;
+  transform: scaleX(-1);
+}
+
+.form-wrap button {
+  padding: 1em 0;
+  color: #fff;
+  background-image: linear-gradient(#0077c4, #0077c4);
+  border: 0;
+  border-radius: 5px;
+}
+
+.form-wrap button:hover {
+  background-image: linear-gradient(#0082d8, #0077c4);
+}
+
+.form-wrap button:active {
+  background-image: linear-gradient(#0077c4, #0082d8);
+  color: #8d9096 !important;
+}
+
+.form-wrap button i {
+  padding-right: 0.6em;
+}
+
+.form-wrap .submit-advice {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 2em;
+  color: #686868;
+  padding-top: 2em;
+}
+
+.recap {
+  display: block;
+  width: 380px;
+  padding: 2em 0;
+  background-color: #eceef1;
+  font-size: 10px;
+  box-sizing: border-box;
+  border: 1px solid #c7c7c7;
+  border-top: 0;
+  color: #8d9096;
+}
+
+/* ------------------------------------------------------------------------
+                                FOOTER
+------------------------------------------------------------------------ */
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
+  background: #eceef1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 4px 8px;
+}
+
+footer ul {
+  padding: 5px 0 0;
+}
