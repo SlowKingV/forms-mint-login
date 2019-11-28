@@ -11,12 +11,12 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/*------------------------------------------------------------------------
+/* ------------------------------------------------------------------------
                                 NAVBAR
-------------------------------------------------------------------------*/
+------------------------------------------------------------------------ */
 nav {
   display: flex;
   justify-content: flex-end;
@@ -52,12 +52,12 @@ nav button {
   padding-right: 6px;
 }
 
-.next-ico {padding-bottom: 15px;}
+.next-ico { padding-bottom: 15px; }
 
 .next-ico > div {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .next-ico span {
@@ -68,13 +68,13 @@ nav button {
 }
 
 .next-ico span > span {
-    position: relative;
-    bottom: 10px;
+  position: relative;
+  bottom: 10px;
 }
 
-/*------------------------------------------------------------------------
+/* ------------------------------------------------------------------------
                                 FORM
-------------------------------------------------------------------------*/
+------------------------------------------------------------------------ */
 .main-content {
   display: flex;
   justify-content: space-evenly;
@@ -110,10 +110,10 @@ nav button {
 }
 
 .form-wrap .link-wrap {
-    height: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .form-wrap a {
@@ -142,14 +142,14 @@ nav button {
 }
 
 .form-wrap form input:focus {
-    box-shadow: 0 0 2px 2px #bfe2ff;
-    border: 1px solid #167ccc;
+  box-shadow: 0 0 2px 2px #bfe2ff;
+  border: 1px solid #167ccc;
 }
 
 .form-wrap .phone-advice {
-    color: #3b3b3b;
-    font-size: 10px;
-    padding: 5px 0;
+  color: #3b3b3b;
+  font-size: 10px;
+  padding: 5px 0;
 }
 
 .form-wrap label > .label {
@@ -173,12 +173,12 @@ nav button {
 }
 
 .form-wrap button:hover {
-    background-image: linear-gradient(#0082d8, #0077c4);
+  background-image: linear-gradient(#0082d8, #0077c4);
 }
 
 .form-wrap button:active {
-    background-image: linear-gradient(#0077c4, #0082d8);
-    color: #8d9096 !important;
+  background-image: linear-gradient(#0077c4, #0082d8);
+  color: #8d9096 !important;
 }
 
 .form-wrap button i {
@@ -205,9 +205,9 @@ nav button {
   color: #8d9096;
 }
 
-/*------------------------------------------------------------------------
+/* ------------------------------------------------------------------------
                                 FOOTER
-------------------------------------------------------------------------*/
+------------------------------------------------------------------------ */
 footer {
   font-size: 14px;
   text-align: center;
